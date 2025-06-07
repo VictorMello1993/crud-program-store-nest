@@ -1,3 +1,5 @@
+import { Expose, Transform } from "class-transformer";
+
 export class Program {
 	id: number;
 	name: string;
@@ -6,4 +8,6 @@ export class Program {
 	category: string;
 	comments?: string;
 	isFree: boolean;
+	createdAt: Date;
+	userId: number;
 }

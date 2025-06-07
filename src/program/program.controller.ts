@@ -1,7 +1,6 @@
-import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Param, Post, Put, UsePipes } from "@nestjs/common";
 import { CreateProgramDTO } from "./dto/createProgramDTO";
 import { UpdateProgramDTO } from "./dto/updateProgramDTO";
-import { Program } from "./program.entity";
 import { ProgramService } from "./program.service";
 
 @Controller("programs")

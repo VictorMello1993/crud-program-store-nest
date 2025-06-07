@@ -19,12 +19,12 @@
 
 ### Outras funcionalidades de input/output
 
-1. Ao inserir um programa, deve ser adicionado neste um campo chamado "inseridoEm" que deve ser preenchido automáticamente com a data de inserção do programa (data atual)
-2. Ao inserir um programa, deve ser adicionado neste um campo chamado "idUsuario", que terá sempre o valor 0
+1. Ao inserir um programa, deve ser adicionado neste um campo chamado "inseridoEm" que deve ser preenchido automáticamente com a data de inserção do programa (data atual) [*]
+2. Ao inserir um programa, deve ser adicionado neste um campo chamado "idUsuario", que terá sempre o valor 0 [*]
 3. Ao obter um programa, o campo "inseridoEm" deve ser formatado para exibir a data no formato dia/mes/ano
 4. Ao obter um programa, o campo "gratuito" deve ter como valor "Sim" ou "Não"
 5. Ao tentar adicionar um software sem uma das 5 propriedades básicas, o usuário deve receber um erro dizendo que a entrada é inválida e listando quais propriedades estão faltando. 
-6. As sequintes propriedades de um programa não podem ser editadas e se forem passadas na requisição devem ser desconsideradas:
+6. As seguintes propriedades de um programa não podem ser editadas e se forem passadas na requisição devem ser desconsideradas:
    - id
    - inseridoEm
    - idUsuario

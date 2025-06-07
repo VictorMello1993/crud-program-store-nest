@@ -8,7 +8,7 @@ export class ProgramService {
 	private programs: Program[] = [];
 	create(data: CreateProgramDTO): Program {
 		const id = this.programs.length + 1;
-		const newProgram = { id, ...data } as Program;
+		const newProgram = { id, ...data, createdAt: new Date(), userId: 0 } as Program;
 
 		this.programs.push(newProgram);
 
