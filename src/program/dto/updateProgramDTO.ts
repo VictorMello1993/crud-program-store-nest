@@ -1,5 +1,4 @@
-export class Program {
-	id: number;
+export class UpdateProgramDTO {
 	name: string;
 	website: string;
 	description: string;

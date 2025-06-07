@@ -1,4 +1,4 @@
-export class CreateUserDTO {
+export class CreateProgramDTO {
 	name: string;
 	website: string;
 	description: string;
