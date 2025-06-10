@@ -8,7 +8,7 @@
    - Descrição
    - Categoria
    - Gratuito
-   - Comentários (opcional)
+   - Comentários (opcional) [*]
 2. Um usuário deve conseguir inserir um novo programa com as propriedades básicas [*]
 3. Os programas devem ser armazenados em uma estrutura de array salva em memória [*]
 4. Ao inserir um programa, este deve receber um ID  gerado automaticamente [*]

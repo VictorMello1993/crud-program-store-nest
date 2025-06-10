@@ -33,8 +33,7 @@ export class ProgramService {
 		const index = this.programs.findIndex((p) => p.id === id);
 
 		if (index !== -1) {
-			this.programs.splice(index, 1);
-			return this.programs;
+			return this.programs.splice(index, 1);			
 		}
 
 		throw new Error("Program not found!");
